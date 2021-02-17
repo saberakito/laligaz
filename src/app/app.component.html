@@ -1,0 +1,42 @@
+<div *ngIf="showHeader" class="{{class_checkShow}}">
+    <div class="header-area">
+        <div class="container">
+            <div class="counting_area">
+                <a href="http://guestscounter.com"><img style="width: 150px;margin-right: 50px;" src="http://guestscounter.com/count.php?c_style=1&id=1590556352" border=0 alt="hits counter"></a>
+            </div>
+
+            <div class="logo_area"><img src="assets/images/logo/logo.png?v=1.1">
+            </div>
+
+            <!-- <div class="login_area">
+                <input class="text_login_area" placeholder="ชื่อผู้ใช้" type="text" name="" id="">
+                <input class="text_login_area" placeholder="รหัสผ่าน" type="password" name="" id="">
+                <span class="badge badge-danger btn_login_area">เข้าสู่ระบบ</span>
+            </div> -->
+            <div class="contact_area" style="padding-top: 30px;">
+                <div class="tel">
+                    <img src="./assets/images/icon/tel-icon.png" alt=""> 088-888-8888
+                </div>
+                <div class="line">
+                    <img src="./assets/images/icon/line-icon.png" alt=""> @LLGZ
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-navbar *ngIf="showHeader">
+
+</app-navbar>
+<div class="content page">
+    <router-outlet></router-outlet>
+</div>
+
+<div class="m_footer col-xs-12">
+    <div class="col-xs-3" routerLink="/home"><img src="assets/images/footer/icon-home.png?v=1.2"></div>
+    <div class="col-xs-3">
+        <a href="http://line.me/ti/p/~@LLGZ" target="_bank"><img src="assets/images/footer/icon-line.png?v=1.2"></a>
+    </div>
+    <div class="col-xs-3" routerLink="/promotion"><img src="assets/images/footer/icon_guide.png?v=1.2"></div>
+    <div class="col-xs-3" routerLink="/page/register"><img src="assets/images/footer/icon_add.png?v=1.2"></div>
+</div>
+<app-footer *ngIf="showHeader"></app-footer>

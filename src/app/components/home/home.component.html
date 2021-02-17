@@ -1,0 +1,151 @@
+<ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+    <div ngxSlickItem *ngFor="let slide of imageUrls" class="slide">
+        <img src="{{ slide.img }}" alt="" width="100%">
+    </div>
+</ngx-slick-carousel>
+<div class="content_">
+    <div class="text_slide">
+        <div class="container" style="background: unset;">
+            <marquee style=" margin-bottom: -6px; line-height: 1; font-size: 26px; color:black">LALIGAZ เว็บไซต์พนันออนไลน์ยอดนิยมอันดับ 1 ของคนไทย มาตรฐานสากล เปิดให้บริการทั้ง แทงบอลออนไลน์ กีฬา คาสิโน และเกมส์ออนไลน์ สามารถแทงพนันหลากหลายรูปแบบได้ตลอด 24 ชม.</marquee>
+        </div>
+    </div>
+    <div class="container content_area_set" style="background: rgba(9, 10, 12, 0.7);">
+        <div _ngcontent-oex-c6="" class="dataContentBot">
+            <div class="row">
+                <div class="detailLeft">
+                    <div class="area_top">
+                        <div class="detailLeft_area4">
+                            <img class="hvr-push hover" [routerLink]="['/page/register']" style="width:100%" src="/assets/images/content/REGISTER-icon.png?v={{version_}}" alt="">
+                        </div>
+                        <div class="detailRight_area4">
+                            <img class="hvr-push hover" [routerLink]="['/page/withdraw']" style="width:100%" src="/assets/images/content/WITHDRAW-icon.png?v={{version_}}" alt="">
+                        </div>
+                    </div>
+                    <div class="area_bottom">
+                        <div class="detailLeft_area4">
+                            <a href="http://line.me/ti/p/~@LLGZ" target="_bank">
+                                <img class="hvr-push hover" style="width:100%" src="/assets/images/content/line-icon2.png?v={{version_}}" alt="">
+                            </a>
+                        </div>
+                        <div class="detailRight_area4">
+                            <img class="hvr-push hover" [routerLink]="['/page/deposit']" style="width:100%" src="/assets/images/content/DEPOSIT-icon.png?v={{version_}}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="detailRight">
+                    <div class="login_area">
+                        <div class="login_text">
+                            <div class="textLoginArea">
+                                LOGIN <img class="image_login_log" src="/assets/images/logo/logo.png?v={{version_}}"> LALIGA.COM
+                            </div>
+                            <form _ngcontent-ftw-c0="" action="https://ufabet5499.com/api/loginUfabet.php" class="centered-form ng-pristine ng-invalid ng-touched" data-toggle="validator" id="form1" method="post">
+                                <div class="form_input">
+                                    <input type="text" name="username" id="username" style="text-align:center" placeholder="ชื่อผู้ใช้" class="form-control input_login">
+                                    <input type="password" name="password" id="password" style="text-align:center" placeholder="รหัสผ่าน" class="form-control input_login">
+                                    <input type="hidden" name="ac" style="text-align:center" value="loginUfabet" class="form-control input_login">
+                                    <input id="ac" name="ac" type="hidden" value="loginUfabet">
+                                    <a _ngcontent-ftw-c0="" class="btn-submit width-btn" href="javascript:doPostBackBetufa('btnSignIn','')" id="btnSignIn" style="text-transform: uppercase;" tabindex="5">
+                                        <span class="badge badge-danger hover btn_login">เข้าสู่ระบบ</span>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div _ngcontent-oex-c6="" class="dataContentBot">
+            <!-- <div class="row">
+                <div class="row" class="register_step_area">
+                    <img src="/assets/images/content/how-to-register.jpg?v=1.1" alt="">
+                </div>
+            </div> -->
+            <div class="row bank" style="padding-top:20px">
+                <div class="detail_left">
+                    <img src="/assets/images/content/banking.jpg?v={{version_}}" alt="">
+                </div>
+                <div class="detail_right">
+                    <img src="/assets/images/content/callcenter.jpg?v={{version_}}" alt="">
+                </div>
+            </div>
+            <div class="row" style="padding-top:20px">
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/pro1.jpg?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/pro2.jpg?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/pro3.jpg?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+            </div>
+
+            <div class="row" style="padding-top:20px">
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/sport.png?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/casino.png?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/lotto.png?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+            </div>
+
+            <div class="row" style="padding-top:20px">
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/livescore.png?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/muaythai.png?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+                <div class="col-sm icon_pro">
+                    <img src="/assets/images/content/huaythai.png?v={{version_}}" style="width: 100%;" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="info_home">
+                    <div class="text_home" style="text-shadow: 3px 4px black;">
+                        LALIGAZ.COM เว็บ แทงบอลออนไลน์ โดยตรงในประเทศไทยครบทุกการเดิมพัน
+                    </div>
+                    <div class="text_des_home" style="text-align: center;">
+                        <span style="color: #FBD901;">Laligaz</span> ตัวแทนในประเทศไทยดูแลสมาชิกเว็บ แทงบอลออนไลน์ บริษัทตรงจากทาง <span style="color: #FBD901;">Laligaz</span> ที่มีมาตรฐานสากลเรื่องบริการเป็นอันดับ 1 รับเครดิตฟรี เพียงแค่คุณทำการ สมัครสมาชิกแล้วเลือกรับโบนัสสมาชิกใหม่ได้เงินเพิ่มทันที
+                        30% ยังมีโปรโมชั่นอื่นอีกอาทิ เช่น ฝากเงินรับเพิ่ม 5%, ทั้งเดือนเล่นเสียรับคืน 10%, ชวนเพื่อนมาเล่นรับ 1,000 บาท สมารถเล่นได้ทั้งแทงบอล,บอลสเต็ปและคาสิโนออนไลน์ มีทีมงาน Callcenter คอยให้บริการตลอด 24 ชั่วโมง ฝาก-ถอน ไม่มีขั้นต่ำ
+                        ตลอด 365 วันไม่มีวันหยุด เพื่อให้ทุกการเดิมพันของสมาชิกไม่มีสะดุด ทำรายการรวดเร็วด้วยระบบฝากแค่ 1 นาที ถอนเงินเข้าบัญชีของท่านใช้เวลาแค่ 10 นาที เราคือ <span style="color: red;">เว็บพนันบอล ดีที่สุด</span> ครบครันทั้งหวย,มวย,สล็อต,และเกมส์ต่างๆ
+                        มาร่วมเป็นส่วนหนึ่งของเว็บแทงบอลที่เพียบพร้อมมั่นคงปลอดภัยไม่ต้องผ่านเอเย่นต์
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" class="register_step_area">
+                <img src="/assets/images/content/partner.png?v={{version_}}" alt="">
+            </div>
+
+            <div class="row" style="padding-top: 20px;">
+                <div class="title_text blog_title"> บทความ</div>
+                <div class="row" style="padding-top: 20px;">
+                    <ng-container *ngFor="let todo of todoList; index as i; first as isFirst;let l = count">
+                        <div class="col-4 blog_" tabindex="0" routerLink="/news/news-detail/{{todo.adjust_page_title}}-{{todo.adjust_page_id}}">
+                            <div class="blog_card">
+                                <div class="image_blog_card">
+                                    <img src="{{todo.adjust_image}}" style="width: 100%;" alt="">
+                                </div>
+                                <div class="text_blog_card">
+                                    <div class="text-news"> {{todo.adjust_page_title}} </div>
+                                    <div class="des-news"> {{todo.adjust_page_short_description}} </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- <div _ngcontent-gyx-c3="" attr="http://line.me/ti/p/~@megarich88" class="qr-popup"><i _ngcontent-gyx-c3="" aria-hidden="true" class="fa fa-window-close fa-6 close-qr"></i></div> -->
